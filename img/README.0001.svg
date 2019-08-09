@@ -1,0 +1,158 @@
+<svg width="108.00000000000001" height="90" viewBox="0 0 12 10" xmlns="http://www.w3.org/2000/svg">
+<line x1="1.5" y1="3.5" x2="7.5" y2="3.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="3.5" y1="4.5" x2="5.5" y2="4.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="2.5" y1="8.5" x2="6.5" y2="8.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="1.5" y1="9.5" x2="7.5" y2="9.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="1.5" y1="3.5" x2="1.5" y2="5.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="1.5" y1="8.5" x2="1.5" y2="9.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="3.5" y1="4.5" x2="3.5" y2="5.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="5.5" y1="4.5" x2="5.5" y2="5.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="7.5" y1="3.5" x2="7.5" y2="5.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<line x1="7.5" y1="8.5" x2="7.5" y2="9.5" stroke="black" stroke-width="0.3" stroke-linecap="round">
+</line>
+<circle cx="1.5" cy="5.5" r="0.35" fill="black">
+</circle>
+<circle cx="1.5" cy="5.5" r="0.1" fill="white">
+</circle>
+<circle cx="2.5" cy="5.5" r="0.35" fill="black">
+</circle>
+<circle cx="2.5" cy="5.5" r="0.1" fill="white">
+</circle>
+<circle cx="3.5" cy="5.5" r="0.35" fill="black">
+</circle>
+<circle cx="3.5" cy="5.5" r="0.1" fill="white">
+</circle>
+<circle cx="4.5" cy="5.5" r="0.35" fill="black">
+</circle>
+<circle cx="4.5" cy="5.5" r="0.1" fill="white">
+</circle>
+<circle cx="5.5" cy="5.5" r="0.35" fill="black">
+</circle>
+<circle cx="5.5" cy="5.5" r="0.1" fill="white">
+</circle>
+<circle cx="6.5" cy="5.5" r="0.35" fill="black">
+</circle>
+<circle cx="6.5" cy="5.5" r="0.1" fill="white">
+</circle>
+<circle cx="7.5" cy="5.5" r="0.35" fill="black">
+</circle>
+<circle cx="7.5" cy="5.5" r="0.1" fill="white">
+</circle>
+<circle cx="2.5" cy="8.5" r="0.35" fill="black">
+</circle>
+<circle cx="2.5" cy="8.5" r="0.1" fill="white">
+</circle>
+<circle cx="3.5" cy="8.5" r="0.35" fill="black">
+</circle>
+<circle cx="3.5" cy="8.5" r="0.1" fill="white">
+</circle>
+<circle cx="4.5" cy="8.5" r="0.35" fill="black">
+</circle>
+<circle cx="4.5" cy="8.5" r="0.1" fill="white">
+</circle>
+<circle cx="5.5" cy="8.5" r="0.35" fill="black">
+</circle>
+<circle cx="5.5" cy="8.5" r="0.1" fill="white">
+</circle>
+<circle cx="6.5" cy="8.5" r="0.35" fill="black">
+</circle>
+<circle cx="6.5" cy="8.5" r="0.1" fill="white">
+</circle>
+<circle cx="1.5" cy="8.5" r="0.35" fill="black">
+</circle>
+<circle cx="1.5" cy="8.5" r="0.1" fill="white">
+</circle>
+<circle cx="7.5" cy="8.5" r="0.35" fill="black">
+</circle>
+<circle cx="7.5" cy="8.5" r="0.1" fill="white">
+</circle>
+<rect x="0" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="1" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="2" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="3" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="4" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="5" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="6" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="7" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="8" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="9" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="0" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="0" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="1" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="2" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="3" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="4" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="5" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="6" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="7" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="8" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="9" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="1" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="2" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="2" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="3" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="3" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="4" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="4" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="5" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="5" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="6" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="6" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="7" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="7" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="8" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="8" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="10" y="9" width="1" height="1" fill="black" stroke="black">
+</rect>
+<rect x="11" y="9" width="1" height="1" fill="black" stroke="black">
+</rect>
+</svg>
