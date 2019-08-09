@@ -56,8 +56,7 @@ function drawBoard(drawer, parsed, option) {
 
     for(i = 0; i < parsed.alls.length; i++) {
         drawer.addRect(svg, parsed.alls[i].x + opt.xMargin * 10, parsed.alls[i].y + opt.yMargin * 10, 1, 1, {
-            "fill": "black",
-            "stroke": "black"
+            "fill": "black"
         });
     }
     return svg;
