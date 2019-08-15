@@ -80,11 +80,11 @@ function parse(input) {
         horizontal = quadro.getHorizontalStrings(),
         vertical = quadro.getVerticalStrings(),
         matched,
-        hPattern = /\+-*\+|o-*\+|\+-*o|o-+o/g,
-        vPattern = /\+\|*\+|o\|*\+|\+\|*o|o\|+o/g,
+        hPattern = /[\+\*]-*[\+\*]|o-*[\+\*]|[\+\*]-*o|o-+o/g,
+        vPattern = /[\+\*]\|*[\+\*]|o\|*[\+\*]|[\+\*]\|*o|o\|+o/g,
         connectPattern = /[pq][pq]+/g,
         circlePattern = /o/g,
-        allPattern = /#/g,
+        allPattern = /[#\*]/g,
         result = {};
 
     result.horizontalLines = [];
