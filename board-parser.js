@@ -73,10 +73,50 @@ function createQuadro(inputString) {
     return me;
 }
 
+function parseOption(input) {
+    var option = {},
+        substitute = input.replace(/^(?:\r\n|\r|\n)/, ""),
+        pattern = /^;([^\r\n]*)(?:\r\n|\r|\n)/g,
+        matched,
+        matchedOption,
+        matchedValue;
+
+    while(!!(matched = pattern.exec(substitute))) {
+        if(matched.index > 0) {
+            break;
+        }
+        matchedOption = /^[ \t]*#([a-zA-Z0-9]+)(?:=(.*))?$/.exec(matched[1]);
+        if(matchedOption) {
+            if(matchedOption[1]) {
+                if(matchedOption[2]) {
+                    if(/^[0-9\.]+$/.test(matchedOption[2])) {
+                        matchedValue = parseFloat(matchedOption[2]);
+                    } else {
+                        matchedValue = matchedOption[2];
+                    }
+                }
+                if(matchedOption[1] === "negative") {
+                    option["positive"] = false;
+                } else {
+                    option[matchedOption[1]] = matchedValue;
+                }
+            }
+        }
+        substitute = substitute.replace(pattern, "");
+    }
+
+    return {
+        option: option,
+        substitute: substitute
+    };
+}
+
 function parse(input) {
     var i,
         j,
-        quadro = createQuadro(input),
+        result = {},
+        optionParsed = parseOption(input),
+        quadro = createQuadro(optionParsed.substitute),
         horizontal = quadro.getHorizontalStrings(),
         vertical = quadro.getVerticalStrings(),
         matched,
@@ -84,8 +124,7 @@ function parse(input) {
         vPattern = /[\+\*]\|*[\+\*]|o\|*[\+\*]|[\+\*]\|*o|o\|+o/g,
         connectPattern = /[pq][pq]+/g,
         circlePattern = /o/g,
-        allPattern = /[#\*]/g,
-        result = {};
+        allPattern = /[#\*]/g;
 
     result.horizontalLines = [];
     result.verticalLines = [];
@@ -158,6 +197,7 @@ function parse(input) {
 
     result.sizeX = quadro.getSizeX();
     result.sizeY = quadro.getSizeY();
+    result.option = optionParsed.option;
     return result;
 }
 

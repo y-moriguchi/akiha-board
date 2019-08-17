@@ -10,18 +10,48 @@
 var board = require("./board.js");
 var fs = require("fs");
 
+function parseOption(argv) {
+    var argn = 2,
+        matched,
+        option = {};
+
+    while(argv[argn].startsWith("--")) {
+        if(argv[argn] === "--negative") {
+            option.positive = false;
+        } else {
+            matched = /^--([a-zA-Z0-9]+)(?:=(.*))$/.exec(argv[argn]);
+            if(!matched[2]) {
+                option[matched[1]] = true;
+            } else if(/^[0-9\.]$/.test(matched[2])) {
+                option[matched[1]] = parseFloat(matched[2]);
+            } else {
+                option[matched[1]] = matched[2];
+            }
+        }
+        argn++;
+    }
+
+    return {
+        option: option,
+        argn: argn
+    };
+}
+
 function main() {
     var input,
         output,
-        filename;
+        filename,
+        parsedOption;
 
     if(process.argv.length < 3) {
-        console.log("Usage: akiha-board filename");
+        console.log("Usage: akiha-board [options] filename");
         process.exit(2);
     }
-    filename = process.argv[2];
+
+    parsedOption = parseOption(process.argv);
+    filename = process.argv[parsedOption.argn];
     input = fs.readFileSync(filename, "utf8");
-    output = board.drawBoardDirect(input);
+    output = board.drawBoardDirect(input, parsedOption.option);
     if(/\.[^\.]+$/.test(filename)) {
         filename = filename.replace(/\.[^\.]+$/, ".svg");
     } else {

@@ -6,6 +6,7 @@
  * This software is released under the MIT License.
  * http://opensource.org/licenses/mit-license.php
  **/
+var common = require("./board-common.js");
 var browser = require("./svg-browser.js");
 var direct = require("./svg-direct.js");
 var base = require("./svg-base.js");
@@ -15,7 +16,7 @@ var boardDraw = require("./board-draw.js");
 function drawBoard(drawer) {
     return function(input, option) {
         var parsed = parser(input),
-            drawSvg = boardDraw(drawer, parsed, option);
+            drawSvg = boardDraw(drawer, parsed, common.extend(option, parsed.option));
 
         return drawSvg;
     }
