@@ -25,6 +25,19 @@ Akiha-board has the elements shown as follows.
 |#|fill the box|
 |*|fill the box and branches the wires|
 
+## Option
+You can specify options by writing the line which begins ;#option=value.
+The value is optional. If you do not specify the value, the value true is specified.
+
+|Option|Description|
+|:--|:--|
+|dpi|dot per inch|
+|lineWidth|width of wire by inch|
+|outerRadius|radius of outer node by inch|
+|innerRadius|radius of inner node by inch|
+|positive|output positive pattern|
+|negative|output negative pattern|
+
 ## Example
 Input:
 ```
