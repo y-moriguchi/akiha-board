@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     scriptNodes = document.getElementsByTagName("script");
     for(i = 0; i < scriptNodes.length;) {
         if(scriptNodes[i].type === opt.scriptType) {
-            replaceChildNode(scriptNodes[i], scriptNodes[i].text);
+            replaceChildNode(scriptNodes[i], scriptNodes[i].text.replace(/(?:\r\n|\n|\r)$/, ""));
         } else {
             i++;
         }
