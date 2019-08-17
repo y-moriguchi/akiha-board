@@ -41,6 +41,7 @@ The value is optional. If you do not specify the value, the value true is specif
 ## Example
 Input:
 ```
+;#positive
 ############
 #*##########
  |        ##
