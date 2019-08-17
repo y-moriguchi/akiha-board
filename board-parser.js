@@ -94,7 +94,10 @@ function parseOption(input) {
                     } else {
                         matchedValue = matchedOption[2];
                     }
+                } else {
+                    matchedValue = true;
                 }
+
                 if(matchedOption[1] === "negative") {
                     option["positive"] = false;
                 } else {
