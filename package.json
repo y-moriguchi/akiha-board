@@ -1,0 +1,40 @@
+{
+  "name": "akiha-board",
+  "version": "0.0.0",
+  "description": "Generate printed wiring board pattern by ASCII art",
+  "main": "board.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-moriguchi/akiha-board.git"
+  },
+  "bin": {
+    "akiha-board": "board-cli.js"
+  },
+  "files": [
+    "README.md",
+    "board-browser.js",
+    "board-cli.js",
+    "board-common.js",
+    "board-draw.js",
+    "board-parser.js",
+    "board.js",
+    "package.json",
+    "svg-base.js",
+    "svg-browser.js",
+    "svg-direct.js"
+  ],
+  "keywords": [
+    "ASCII-art",
+    "electronics",
+    "printed-board"
+  ],
+  "author": "Yuichiro MORIGUCHI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y-moriguchi/akiha-board/issues"
+  },
+  "homepage": "https://github.com/y-moriguchi/akiha-board#readme"
+}

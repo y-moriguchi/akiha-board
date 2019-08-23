@@ -4,6 +4,19 @@ Akiha-board draws printed wiring board pattern by ASCII-art.
 
 ## How to use
 
+### Node.js
+Install Akiha-board:
+```
+npm install -g akiha-board
+```
+
+To obtain a SVG file of printed wiring board pattern, you type the below command.
+```
+akiha-board [--option=value ...] akiha-board-file
+```
+
+The options are avaibale described later.
+
 ### Browser
 Write this HTML fragment in your HTML file.
 ```
